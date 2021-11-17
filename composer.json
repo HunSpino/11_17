@@ -1,0 +1,18 @@
+{
+    "name": "10_17/rajzfilmek",
+    "authors": [
+        {
+            "name": "Tamas-Levente",
+            "email": "tamasleventelaszlo99@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Petrik\\Rajzfilmek\\":"src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.8",
+        "slim/psr7": "^1.4"
+    }
+}
